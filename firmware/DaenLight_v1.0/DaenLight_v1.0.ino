@@ -9,7 +9,7 @@
 
 /*
    УПРАВЛЕНИЕ:
-   Нажатие верхней кнопкой (по кругу смена яркости и сон):
+   Нажатие верхней кнопки (по кругу смена яркости и сон):
    - включение на 1 уровень яркости
    - переключение на 2 уровень яркости
    - переключение на 3 уровень яркости
@@ -31,6 +31,9 @@
 #define SLEEP_TIMER 600000                // период автоматического отключения в миллисекундах
 #define BAT_LOW 3300                      // минимальное напряжение работы в милливольтах 
 #define LED_TIMER 30                      // период обновления ленты в миллисекундах (влияет на скорость затухания и работы динамических режимов)
+#define FIRST_LEVEL 75                    // первый уровень яркости
+#define SECOND_LEVEL 100                  // второй уровень яркости
+#define THIRD_LEVEL 125                   // третий уровень яркости
 
 //**************************** ПИНЫ *********************************
 #define STRIP_PIN PB4                     // пин ленты
@@ -104,18 +107,18 @@ void loop() {
     switch (counter_up) {
       case 0:
         lastBrightness = 0;
-        brightness = 75;
+        brightness = FIRST_LEVEL;
         break;
       case 1:
-        lastBrightness = 75;
-        brightness = 100;
+        lastBrightness = FIRST_LEVEL;
+        brightness = SECOND_LEVEL;
         break;
       case 2:
-        lastBrightness = 100;
-        brightness = 125;
+        lastBrightness = SECOND_LEVEL;
+        brightness = THIRD_LEVEL;
         break;
       case 3:
-        lastBrightness = 125;
+        lastBrightness = THIRD_LEVEL;
         brightness = 0;
         break;
     }
