@@ -4,7 +4,7 @@
 * [Папки проекта](#chapter-1)
 * [Схема подключения](#chapter-2)
 * [Ссылки на компоненты](#chapter-3)
-* 
+
 ![DAENSHOW_PHOTO](https://github.com/DaenShow/DaenShow/blob/main/DaenShow.png)
 
 <a id="chapter-0"></a>
