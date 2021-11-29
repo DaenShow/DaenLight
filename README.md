@@ -43,12 +43,12 @@
 
 <a id="chapter-3"></a>
 ## Ссылки на компоненты
-Attiny85 https://aliexpi.com/DSZ2
-Программатор https://aliexpi.com/9Ft9
-Плата программирования https://aliexpi.com/B7oM
-Адресная светодиодная лента WS2812b https://aliexpi.com/ra0M
-Модуль зарядки и защиты аккумулятора TP4056 https://aliexpi.com/AXEw
-Аккумулятор https://aliexpi.com/3wrf
-Выключатель https://aliexpi.com/sgcU
-Кнопки https://aliexpi.com/crWx
-Резисторы и транзистор взял в местных магазинах
+- Attiny85 https://aliexpi.com/DSZ2
+- Программатор https://aliexpi.com/9Ft9
+- Плата программирования https://aliexpi.com/B7oM
+- Адресная светодиодная лента WS2812b https://aliexpi.com/ra0M
+- Модуль зарядки и защиты аккумулятора TP4056 https://aliexpi.com/AXEw
+- Аккумулятор https://aliexpi.com/3wrf
+- Выключатель https://aliexpi.com/sgcU
+- Кнопки https://aliexpi.com/crWx
+- Резисторы и транзистор взял в местных магазинах
